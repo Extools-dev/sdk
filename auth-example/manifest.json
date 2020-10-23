@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Auth Example",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgYJEImxTdvnvzPAKMUFQotly9xowzdUF7EBPYdzBpQFfFaJ/GSQZWihyGLgS61QS1hg9kagrEtJy2fhj4720MSBpZ+0s2/JraY0hBsKT/FmWvTEv9z/Ji3TYzzJh1fZxAZFRhfvZo2O2rJ0dHymfWg0vZhWVgtDoOBIluhNSCxqeBIRWccXfvZhTaxWOcDBbnoi2TlZRLRXR5WUB88zyfAP+EKeFT3PeUxBV2gkJ02KFmVvQS4+9s7SS7rfHW48CoQPO2xjcmQYiFb+4xcxJ+XKeHfjmGz3mUNWN92bJUUz5ZpmTFyhJP+UY34hW8cZYcCkXkHbvNxYDLyd7GgsXCwIDAQAB",
+    "description": "Auth Example",
+    "version": "1.0",
+    "icons": {
+      "128": "logo128.png"
+    },
+  
+    "permissions": [
+
+        ""
+        "identity"
+    ],
+  
+    "browser_action": {
+      "default_icon": "logo128.png",
+      "default_title": "Test",
+      "default_popup": "popup.html"
+    },
+  
+    "oauth2": {
+      "client_id": "218799779883-ks46q2ic84s8fglurqrj3esbr8f0n0rp.apps.googleusercontent.com",
+      "scopes":["https://www.googleapis.com/auth/userinfo.email"]
+    }
+  }

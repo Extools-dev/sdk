@@ -1,0 +1,40 @@
+
+<div style="width: 300px; height: 500px;">
+
+<div style="text-align: center;">
+    <h1>Extools example</h1>
+</div>
+
+<button id="login" style="height: 32px;">Login with interactive flow</button>
+<br/>
+<br/>
+<button id="get_email" style="height: 32px;">Obtain email</button>
+<br/>
+<br/>
+Email: <input type="email" id="email"/>
+<br/>
+<br/>
+Base API URL: <input id="base_api_url" value="https://api.shopify-spy.com/api/licence/sp/"/>
+<br/>
+<br/>
+<button id="check_licence" style="height: 32px;">Check licence</button>
+
+<br/><br/>
+Licence: <br/>
+Status: <div id="licence_status"></div>
+<div id="active_sub_stats" style="display: none">
+Due date: <div id="due_date"></div>
+Manage: <a href="#" target="_blank" id="edit_subs">Edit subscription</a> &nbsp; <a href="#" target="_blank" id="cancel_subs">Cancel subscription</a>
+</div>
+
+<hr/>
+
+Status: <br/>
+
+<div id="status"></div>
+
+</div>
+
+
+<script type="text/javascript" src="extools.js"></script>
+<script type="text/javascript" src="popup.js"></script>
